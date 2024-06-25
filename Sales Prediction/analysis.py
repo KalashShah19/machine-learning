@@ -3,9 +3,13 @@ import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error, r2_score
+from io import StringIO
 
-# Load the sample sales data with specified encoding
-data = pd.read_csv('sales.csv', encoding='utf-8')
+# Load the sample sales data
+data = pd.read_csv("sales.csv")
+data['Date'] = pd.to_datetime(data[['Year', 'Month']].assign(DAY=1))
+
+# Display the data to check if it loaded correctly
 print(data)
 
 # Define the features (Quantity_Sold and Price_Per_Unit) and the target (Total_Sales)
@@ -40,18 +44,44 @@ total_units_sold = data['Quantity_Sold'].sum()
 min_quantity_sold = data['Quantity_Sold'].min()
 max_quantity_sold = data['Quantity_Sold'].max()
 
-# Assuming the data represents consecutive days, calculate growth as the percentage change
-data['Previous_Total_Sales'] = data['Total_Sales'].shift(1)
-data['Growth'] = data['Total_Sales'] / data['Previous_Total_Sales'] - 1
-average_growth = data['Growth'].mean() * 100  # Convert to percentage
-
 print(f"Total Revenue: {total_revenue} Rs")
 print(f"Total Units Sold: {total_units_sold}")
 print(f"Minimum Quantity Sold: {min_quantity_sold}")
 print(f"Maximum Quantity Sold: {max_quantity_sold}")
-print(f"Average Growth: {average_growth:.2f}%")
+
+# Find the month with maximum and minimum sales
+monthly_sales = data.groupby(['Year', 'Month'])['Total_Sales'].sum()
+max_sales_month = monthly_sales.idxmax()
+min_sales_month = monthly_sales.idxmin()
+
+print(f"Month with Maximum Sales: {max_sales_month}")
+print(f"Month with Minimum Sales: {min_sales_month}")
+
+# Find the product with maximum and minimum sales
+product_sales = data.groupby('Product_Name')['Total_Sales'].sum()
+max_sales_product = product_sales.idxmax()
+min_sales_product = product_sales.idxmin()
+
+print(f"Product with Maximum Sales: {max_sales_product}")
+print(f"Product with Minimum Sales: {min_sales_product}")
 
 # Plotting
+
+# Bar chart of monthly sales
+plt.figure(figsize=(10, 6))
+monthly_sales.plot(kind='bar', color='skyblue')
+plt.title('Monthly Sales')
+plt.xlabel('Month')
+plt.ylabel('Total Sales (Rs)')
+plt.xticks(rotation=45)
+plt.show()
+
+# Pie chart of sales by product
+plt.figure(figsize=(8, 8))
+product_sales.plot(kind='pie', autopct='%1.1f%%', startangle=140)
+plt.title('Sales Distribution by Product')
+plt.ylabel('')
+plt.show()
 
 # Scatter plot of Quantity_Sold vs Total_Sales
 plt.figure(figsize=(14, 5))

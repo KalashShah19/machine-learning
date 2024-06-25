@@ -1,0 +1,11 @@
+Month,Year,Product_ID,Product_Name,Quantity_Sold,Price_Per_Unit,Total_Sales
+1,2024,101,Football,5,3000,1500
+1,2024,102,Jersey,3,750,2250
+1,2024,103,Stockings,6,400,2400
+1,2024,104,Studs,2,2500,3000
+1,2024,105,Guards,8,300,2400
+2,2024,101,Football,3,3000,9000
+2,2024,102,Jersey,5,750,3750
+2,2024,103,Stockings,10,400,4000
+2,2024,104,Studs,5,2500,12500
+2,2024,105,Guards,2,300,600

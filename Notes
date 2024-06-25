@@ -1,0 +1,24 @@
+Resource Link - https://www.superdatascience.com/pages/machine-learning
+Youtube Links - 
+                Edureka 10 Hours : https://www.youtube.com/watch?v=GwIo3gDZCVQ&list=PL9ooVrP1hQOHUfd-g8GUpKI3hHOwM_9Dn
+                Tutorial : https://www.youtube.com/watch?v=7eh4d6sabA0
+                Detailed Tutorial Playlist : https://www.youtube.com/watch?v=gmvvaobm7eQ&list=PLeo1K3hjS3uvCeTYTeyfe0-rN5r8zn9rw
+                Algorithms in 14 min - https://youtu.be/BT6Aw6Q75Yg?si=LTpnz5AZO-BL_gMF 
+
+17 / 06
+K-Means -> Algo for clustering data 
+Problems -> Random Initialization Trap, Wrong Number of Clusters(K)
+Solution -> K-Means++, WCSS = Within Cluster Sum of Squares
+
+22 / 06 
+Types of Algorithms :-
+                      Supervised Learning - Data already classified amd labelled by Humans
+                      Unsupervised Learning - Unclassified and unlabelled Data which model understands by itself 
+                      Reinforcement Learning / Semi Supervised Learning - model learns from human feedbacksto outputs
+
+Road Map :-
+            Python - Numpy, Pandas, MatplotLib
+            Maths - https://www.youtube.com/watch?v=2GV_ouHBw30&list=PLKnIA16_RmvbYFaaeLY28cWeqV-3vADST&pp=iAQB
+            Algorithms - https://youtu.be/BT6Aw6Q75Yg?si=LTpnz5AZO-BL_gMF
+            Projects - 
+                       Data Sets - Kaggle : https://www.kaggle.com/

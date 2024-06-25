@@ -1,6 +1,0 @@
-Resource Link - https://www.superdatascience.com/pages/machine-learning
-
-17 / 06
-K-Means -> Algo for clustering data 
-Problem -> Random Initialization Trap, Wrong Number of Clusters(K)
-Solution -> K-Means++, WCSS = Within Cluster Sum of Squares

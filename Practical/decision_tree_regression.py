@@ -1,5 +1,3 @@
-# Decision Tree Regression
-
 # Importing the libraries
 import numpy as np
 import matplotlib.pyplot as plt
@@ -19,7 +17,6 @@ regressor.fit(X, y)
 regressor.predict([[6.5]])
 
 from sklearn.metrics import r2_score, mean_squared_error
-# Calculate and print R^2 score (optional)
 y_pred = regressor.predict(X)
 r2 = r2_score(y, y_pred)
 print(f'R^2 score: {r2:.2f}')

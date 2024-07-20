@@ -1,0 +1,35 @@
+NJ 
+    Location - Udhna
+    Distance - 35 km
+    Travel - 70 km 
+    Working - 265 days 
+    Yearly -  18550 km
+    Average - 40 kmpl
+    Fuel - 463.75 ltrs
+    Expense - 44056 rs 
+    Monthly - 3675 rs 
+    Daily - 167 rs
+
+La Net
+    Location - Dumas Road
+    Distance - 37 km
+    Travel - 74 km       
+    Working - 265 days   
+    Yearly - 19610 km    
+    Average - 40 kmpl    
+    Fuel - 490.25 Litres 
+    Expense - 46573.75 rs
+    Monthly - 3881.15 rs 
+    Daily - 175.75 rs
+
+Casepoint
+    Location - Adajan Gam
+    Distance - 40 km
+    Travel - 80 km
+    Working - 265 days        
+    Yearly - 21200 km
+    Average - 40 kmpl
+    Fuel - 530 Litres       
+    Expense - 50350 rs      
+    Monthly - 4195.83 rs      
+    Daily - 190 rs

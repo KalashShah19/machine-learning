@@ -1,0 +1,57 @@
+Process of Machine Learning:
+    Data Collection
+    Data Preprocessing
+    Model Selection
+    Train Model
+    Testing and Evolution
+    Predictions
+    Production
+    Update and Maintain
+
+Metrics to Evaluate Machine Learning Algorithm
+    ROC AOC Curve
+    Accuracy
+    Precision
+    F1 Score
+    Confusion Matrix
+    Mean Absolute Error
+    R Squared
+
+Deep Learning 
+    It is to make a NN model that approximates a function, func is assumed to fit the given data to us and it will predict the incoming data points.
+    NN is a very complex function which is impossible to imagine and it can approximate a lot of data points
+
+Training
+    We feed data with it again and again to minimize the error this process is called training.
+
+Types of Neural Networks
+    Feed Forward NN
+    Backward Propagation NN
+    Convolutional NN
+    Reccuring NN
+    LSTMs - long short term memory neural networks these are made to solve longer sequences and vanishing gradient problems.
+    Auto Encoders
+    GANs Generative Adversarial Networks - advanced than LSTMs
+    Transformers - NN to train data on NLP
+
+In which Algorithm Feature Scalling is required?
+    Distance Measuring Algorithms
+        KNN
+        K-means
+        SVM
+        PCA - Principal Component Analysis
+        Linear Discriminant Analysis
+    
+    Gradient Descent Based Algorithm
+        Linear Regression
+        Logistic Regression
+        NN
+
+Which Algorithms don't require Feature Scalling?
+    Tree based Algorithms
+        Decision Tree
+        Random Forest
+        XGBoost
+
+What is Machine Learning?
+    ML is Subset of AI. It focuses mainly on designing of system thereby allow them to learn and make predictions based on some experience which is data in case of machines.

@@ -55,3 +55,15 @@ Which Algorithms don't require Feature Scalling?
 
 What is Machine Learning?
     ML is Subset of AI. It focuses mainly on designing of system thereby allow them to learn and make predictions based on some experience which is data in case of machines.
+
+Algorithms
+    Linear Regression
+    Logistic Regression
+    SVM (Support Vector Machine)
+    KNN (K-nearest Neighbour)
+    Decision Tree
+    Random Forest
+    Naive Bayes
+    PCA (Principal Component Analysis)
+    Apriori algorithms
+    K-Means Clustering

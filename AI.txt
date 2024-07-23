@@ -1,0 +1,42 @@
+AI
+    Area of computer science that emphasis the creation of intelligent machines that work and react like humans
+    is capability of a machine to imitate intelligent human behaviour
+
+Types of AI
+    Reactive Machines AI
+    Limited Memory AI
+    Theory of Mind AI
+    Self Aware AI
+    Artifical Narrow AI
+    Artifical General Intelligence
+    Artifical Superhuman Intelligence
+
+Model of AI
+    GPT - Generative Pre trained Transformers
+    BERT - Bidirectional Encoders Reprentations from Transformers
+    DALLE
+    Stable Diffusion
+
+Prompt Engineering Techniques
+    Zero Shot Prompting
+    Few Shots Prompting
+    Chain of Thoughts Prompting
+    Self Consistency Prompting
+
+Domains of AI   
+    ML
+    NLP
+    NN
+    Robotics
+    Expert Systems
+    Fuzzy Logic 
+
+Deep Learning
+    Uses NN to solve complex problems 
+    It mimics the way our brain functions ie it learns from past experiences
+
+How Deep Learning Works?
+    Deep Learning studies the basic unit of a brain called a brain cell or a neuron. Inspired from a neuron, an artificial neuron or a perceptron was developed.
+    A biological neuron, has dendrites which is used to receive inputs. Similarly, a perceptron receives multiple inputs, applies various transformations and functions and provides an output.
+    Our brain consists of multiple connected neurons called neural network, we can also have a network of artificial neurons called perceptron's to form a Deep neural network.
+    

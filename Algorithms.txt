@@ -1,0 +1,54 @@
+Algorithm
+    is a set of commands that must be followed for a computer to perform calculations or like other problemsolving operations according to its formal definition an algorithm is a finite set of instructions carried out in a specific order to perform a particular task it's not an entire program or code it is simple logic to a problem
+
+Linear Regression
+    Type - Supervised Learning
+    Linear Regression model tries to fit a regression line to the data points that best represents the relations or correlations with this method the best regression line is found by minimizing the sum of squares of the distance between the data points and the regression line.
+    
+    This technique assumes a linear relationship between the dependent and independent variables, which implies that the dependent variable changes proportionally with changes in the independent variables. In other words, linear regression is used to determine the extent to which one or more variables can predict the value of the dependent variable.
+
+    Assumptions
+        Relationship btwn response and feature variable is linear
+        No multi collinearity
+        No auto correlations
+        No outliers
+        Homoscedasticity
+    
+    Types
+        Simple
+        Multiple
+        
+    Method of Building Models : 
+        All-in
+        Backward-Elimination
+        Forward Selection
+        Bidirectional Elimination
+        Score Comparison
+
+    Steps Involved in any Multiple Linear Regression Model
+        Step #1: Data Pre Processing 
+                Importing The Libraries.
+                Importing the Data Set.
+                Encoding the Categorical Data.
+                Avoiding the Dummy Variable Trap.
+                Splitting the Data set into Training Set and Test Set.
+        Step #2: Fitting Multiple Linear Regression to the Training set 
+        Step #3: Predict the Test set results.
+
+Logistic Regression
+    Logistic regression is used for binary classification where we use sigmoid function, that takes input as independent variables and produces a probability value between 0 and 1.
+
+K-Nearest Neighbors
+    The K-nearest neighbor algorithm creates an imaginary boundary to classify the data. When new data points are added for prediction, the algorithm adds that point to the nearest of the boundary line. It follows the principle of “Birds of a feather flock together”.
+
+    K-NN Algorithm steps
+        Select K, the number of neighbors.
+        Calculate the Euclidean distance of the K number of neighbors.
+        Take the K nearest neighbors as per the calculated Euclidean distance.
+        Count the number of data points in each category among these K neighbors.
+        The new data point is assigned to the category for which the number of the neighbor is maximum.
+
+Support Vector machine
+    Type - supervised learning
+    SVM is mostly used for classification tasks but is also suitable for regression tasks
+    SVM distinguishes classes by drawing a decision boundary 
